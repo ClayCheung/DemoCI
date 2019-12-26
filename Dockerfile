@@ -1,4 +1,4 @@
-FROM cargo.caicloudprivatetest.com/library/java:8
+FROM cargo.sunnyoptical.cn/library/java:8
 
 COPY ./target/democi.jar  /usr/src/myapp/
 
