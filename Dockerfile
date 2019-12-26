@@ -1,4 +1,4 @@
-FROM cargo.sunnyoptical.cn/library/java:8
+FROM cargo.sunnyoptical.cn/library/openjdk:8u151-jre-alpine3.7
 
 COPY ./target/democi.jar  /usr/src/myapp/
 
